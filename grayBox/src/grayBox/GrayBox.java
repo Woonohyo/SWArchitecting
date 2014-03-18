@@ -38,13 +38,12 @@ public class GrayBox {
 		if (configuration.getMethod().equals("QuickSort")) 
 		{
 			iSort = new QuickSort();
-			iSort.Sorting();
 		}
 		
 		else
 		{
 			iSort = new BubbleSort();
-			iSort.Sorting();
 		}
+		iSort.Sorting();
 	}
 }
